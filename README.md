@@ -1,0 +1,4 @@
+# Simple_Processor_Emulator
+
+
+This was a project that I coded up for my Embedded class. I used Java to create a Petri Net that simulated a basic ARMS processor. My Petri Net was given prior states of internal registers as well as data memory via txt files. A txt of instuctions was read in as input. These instructions needed to be read, decoded, executed, and written elsewhere if neccesary in the quasi-parallel nature that a Petri-net operates by. There are different buffers throughout the Petri Net that tokens would be stored at, and the state of the Petri Net-- all of the buffers and their values, would be printed at each step to ensure the system is operating properly. The program would output a simulation txt file that details the different states of the system as it performed the instructions, detailing the buffer values in each state.
